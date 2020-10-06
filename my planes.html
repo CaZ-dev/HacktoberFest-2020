@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>aeroplane</title>
+    <style>
+        #but0{
+            position: fixed;
+            top:80px;
+            left:100px;
+
+        }
+        div.but1{
+            width:device-length;
+            height:90px;
+            background-color:rgb(238,164,38);
+            padding:10px;
+            border:1px solid rgb(238,164,38);
+            border-radius:5px;
+        }
+        div.background{
+            width:600px;
+            height:400px;
+            background:url(images\ \(1\).jpg);
+            border:1px solid black;
+            border-radius:8px;
+            position: fixed;
+            top:170px;
+            left:50px;
+            padding:30px;
+            box-shadow: 8px 8px 8px black;
+        }
+        div.transbox{
+            width:550px;
+            height: 350px;
+            margin:0px;
+            border:1px solid black;
+            opacity:0.8;
+            filter:alpha(opacity=60);
+            background-color: grey;
+            border-radius:8px;
+            padding:20px;
+        }
+        input{
+            padding:10px 20px 10px;
+            width:200px;
+            border-radius:5px;
+            border:1px solid black;
+            margin:10px;
+            box-shadow:  5px 5px 5px black;
+
+        }
+        .adult{
+            padding:10px 20px 10px;
+            width:240px;
+            border-radius:5px;
+            border:1px solid black;
+            margin:10px;
+            box-shadow:  5px 5px 5px black;
+        }
+        .child{
+            padding:10px 20px 10px;
+            width:240px;
+            border-radius:5px;
+            border:1px solid black;
+            margin:10px;
+            box-shadow:  5px 5px 5px black;
+        }
+        .infant{
+            padding:10px 20px 10px;
+            width:240px;
+            border-radius:5px;
+            border:1px solid black;
+            margin:10px;
+            box-shadow:  5px 5px 5px black;
+        }
+        .economy{
+            padding:10px 20px 10px;
+            width:240px;
+            border-radius:5px;
+            border:1px solid black;
+            margin:10px;
+            box-shadow:  5px 5px 5px black;
+        }
+        #btn{
+            background-color: rgb(238,164,38);
+            color:brown;
+            padding: 10px;
+            border:rgb(238,164,38);
+            border-radius:5px;
+            float:right;
+            font-weight: bold;
+        }
+        body{
+            background-image: url(plane.jpg);
+        }
+        .rolling{
+            width: device-length;
+            height:20px;
+            background-color: grey;
+            color:white;
+            font-weight: bolder;
+            margin:8px;
+            border-radius:5px;
+            border:1px solid grey;
+        }
+        .contents{
+            width:450px;
+            height: 300px;
+            border:1px solid black;
+            border-radius:5px;
+            padding:20px;
+            position: fixed;
+            top:300px;
+            right:50px;
+            font-weight: bolder;
+            background-color: rgb(235,237,240);
+            box-shadow: 5px 5px 5px black;
+        }
+        #link{
+            float:right;
+        }
+        #button{
+            padding:10px 20px 10px;
+            border:1px solid rgb(238,164,38);
+            background-color:rgb(238,164,38);
+            color:brown;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 15px;
+            
+        }
+        #new{
+            background-color: brown;
+            color:rgb(238,164,38);
+            border:1px solid brown;
+            border-radius: 5px;
+            padding:10px 20px 10px;
+
+        }
+        .but6{
+            padding:10px;
+            border:1px solid rgb(238,164,38);
+            border-radius:5px;
+            background-color:brown;
+            color:rgb(238,164,38);
+            width:180px;
+            position: fixed;
+            top:80px;
+            right:50px;
+        }
+
+
+
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+
+
+</head>
+<body>
+    <div class="rolling">
+        <marquee>Online booking for Domestic and International Flights</marquee>
+    </div>
+    <div class="but1"align="center">
+        <img id="but0"src="Capture5.PNG">
+        <img src="Capture4.PNG">
+            <select class="but6">
+                <option>Discover</option>
+                <option>Airlines</option>
+                <option>Indigo</option>
+                <option>Goair</option>
+                <option>Air India Express</option>
+                <option>Space jet</option>
+            </select>
+    </div><br>
+    <div class="background">
+        <div class="transbox"align="center">
+            <input type="text" name="from"placeholder="From City or Airport">
+            <input type="text" name="from"placeholder="To City or Airport"><br><br>
+            <input type="text" name="from"placeholder="Date of journey">
+            <select class="adult">
+                <option>1 Adult</option>
+                <option>2 Adults</option>
+                <option>3 Adults</option>
+                <option>4 Adults</option>
+                <option>5 Adults</option>
+                <option>6 Adults</option>
+                <option>7 Adults</option>
+                <option>8 Adults</option>
+            </select>
+            <br><br>
+            <select class="child">
+                <option>0 Child</option>
+                <option>1 Child</option>
+                <option>2 Children</option>
+                <option>3 Children</option>
+                <option>4 Children</option>
+                <option>5 Children</option>
+                <option>6 Children</option>
+                <option>7 Children</option>
+            </select>
+            <select class="infant">
+                <option>0 Infant</option>
+                <option>1 Infant</option>
+                <option>2 Infants</option>
+                <option>3 Infants</option>
+                <option>4 Infants</option>
+                <option>5 Infants</option>
+                <option>6 Infants</option>
+                <option>7 Infants</option>
+            </select>
+            <br><br>
+            <select class="economy">
+                <option>Economy</option>
+                <option>Premium Economy</option>
+                <option>Bussiness</option>
+                <option>First class</option>
+            </select>
+            <br><br>
+            <button id="btn">Book Now</button>
+        </div>
+    </div>
+    <div class=contents align="center">
+        Full Name:<input type="text"name="name"placeholder="Enter Full Name"><br>
+        Email Or Phone Number:<input type="text"name="email"placeholder="Enter Email Or Phone Number"><br>
+        Password:<input type="text"name="name"placeholder="Enter Password"><br><br>
+        <button id="button">Login</button><br>
+        <a href="#" id="link">forgotten password?</a><br>
+        <hr>
+        <button id="new">Create A New Account</button>
+        
+    </div>
+    
+</body>
+</html>
